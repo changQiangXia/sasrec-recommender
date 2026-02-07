@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & Models
+data/movielens/*.csv
+data/movielens/*.zip
+data/movielens/ml-25m/
+data/movielens/.cache_*
+!data/movielens/.gitkeep
+
+# Checkpoints (keep best.pt)
+checkpoints/*.pt
+!checkpoints/best.pt
+!checkpoints/.gitkeep
+
+# Logs
+logs/
+*.log
+api_server.log
+
+# Results
+results/*.txt
+results/*.csv
+!results/.gitkeep
+
+# TensorBoard
+tensorboard/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js (frontend)
+frontend-nextjs/node_modules/
+frontend-nextjs/.next/
+frontend-nextjs/out/
+frontend-nextjs/.env*.local

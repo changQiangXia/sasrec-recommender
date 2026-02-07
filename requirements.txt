@@ -1,0 +1,25 @@
+# SASRec Recommender System
+# Python 3.10+ required
+
+# Core dependencies
+torch>=2.1.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# API service
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+
+# Training & evaluation
+tqdm>=4.65.0
+tensorboard>=2.14.0
+scikit-learn>=1.3.0
+
+# Data processing
+scipy>=1.11.0
+
+# Optional: for Jupyter notebooks
+# jupyter>=1.0.0
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
