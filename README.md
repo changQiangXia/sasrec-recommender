@@ -68,7 +68,21 @@ source venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
-### 1️⃣ 数据准备
+### 1️⃣ 模型下载（可选）
+
+如果你不想自己训练，可以下载预训练模型：
+
+```bash
+# 从 GitHub Release 下载（如果已上传）
+wget https://github.com/changQiangXia/sasrec-recommender/releases/download/v1.0.0/best.pt \
+    -O checkpoints/best.pt
+
+# 或者从 Google Drive / 百度网盘下载（链接待补充）
+```
+
+> 💡 **自己训练**: 如果没有预训练模型，可以直接执行步骤 3 的训练命令
+
+### 2️⃣ 数据准备
 
 **MovieLens 25M**:
 
